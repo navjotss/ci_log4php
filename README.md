@@ -28,8 +28,12 @@ Intergrate log4php(2.3.0) with Codeigniter(+2.0). Add log data in your database 
 5.) Add log4php.properties file in application/config/.
 
 	application/config/log4php.properties
+	add database details in this file.
+6.) Add log4php.properties file in application/helpers/.
+
+	application/helpers/log4php_helper.php
 	
-6.) Access code using below syntax.
+7.) Access code using below syntax.
  
 	$this->load->helper('log4php');
 	log_error('my_error');
